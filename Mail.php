@@ -66,6 +66,7 @@ class Mail
     protected $dontShowEmail = true;
     protected $attachements = array();
     protected $boundary = "";
+    protected $boundary2 = "";
     protected $encoding = "UTF-8";
     protected $eol = PHP_EOL;
     protected $mailFunction = "mail";
